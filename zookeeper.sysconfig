@@ -1,0 +1,4 @@
+ZOOMAIN=-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.local.only=false org.apache.zookeeper.server.quorum.QuorumPeerMain
+LOG4J=-Dlog4j.configuration=file:///usr/local/zookeeper/conf/log4j.properties
+JVMFLAGS=
+ZOOCFG=/usr/local/zookeeper/conf/zoo.cfg
